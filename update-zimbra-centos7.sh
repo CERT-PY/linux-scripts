@@ -1,5 +1,4 @@
 #! /bin/bash
-echo "Su versión actual de zimbra es:"$(runuser -l zimbra -c 'zmcontrol -v')
 yum clean metadata > /dev/null
 echo "Limpiando Metadata"
 yum check-update > /tmp/updates.txt
