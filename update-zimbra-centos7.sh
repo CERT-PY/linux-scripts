@@ -8,4 +8,4 @@ echo "Verificando Repositorios"
 echo "Actualizando dependencias de Zimbra"
 yum install -y zimbra-common-core-jar zimbra-common-core-libs zimbra-mbox-store-libs > /tmp/install_update.txt 
 #runuser -l zimbra -c 'zmcontrol restart'
-echo "Se requiere de su intervención para aplicar el reinicio del servicio de zimbra\n"$(less /tmp/install_update.txt) | mail -vvv -s "Atencion" mcenturion@cert.gov.py mcenturion@mitic.gov.py
+echo "Se requiere de su intervención para aplicar el reinicio del servicio de zimbra\n"$(less /tmp/install_update.txt) | mail -vvv -s "Atencion" administrador@administrador.com
