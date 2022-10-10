@@ -1,4 +1,5 @@
 #! /bin/bash
+#Script para actualizar los paquetes de Zimbra v1
 #Esta línea ejecuta el comando que elimina los metadatos de cada repositorio habilitado en el servidor
 yum clean metadata
 #Esta línea consulta los repositorios externos para actualizaciones de los paquetes de zimbra
